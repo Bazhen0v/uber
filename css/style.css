@@ -1,0 +1,223 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: relative;
+}
+
+.scroll_header {
+  position: sticky;
+  top: 0;
+}
+
+nav {
+  height: 50px;
+  background-color: #212121;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 70px;
+  list-style-type: none;
+}
+
+.menu .menu_link {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.menu .menu_link:hover {
+  text-decoration: underline;
+}
+
+.menu .menu_item {
+  border-right: 2px dotted #000000;
+  padding-right: 48px;
+  max-height: 40px;
+}
+
+.menu .border_none {
+  border: none;
+}
+
+.subheader {
+  position: absolute;
+  width: 100%;
+  height: 84px;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 2;
+}
+
+.subheader .subheader_logo {
+  display: block;
+  margin-top: 16px;
+}
+
+.subheader .logo {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.subheader .subheader_official {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 100;
+  opacity: 0.5;
+  margin-top: 6px;
+}
+
+.subheader .subheader_call {
+  text-align: right;
+  margin-top: 19px;
+  font-size: 12px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.subheader .subheader_phone {
+  display: block;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 400;
+  text-decoration: none;
+  margin-top: 8px;
+  text-align: right;
+  line-height: 12px;
+  text-transform: uppercase;
+}
+
+.subheader .subheader_phone:hover {
+  text-decoration: underline;
+}
+
+.subheader .subheader_btn {
+  width: 172px;
+  height: 46px;
+  box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  margin-top: 19px;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.promo {
+  min-height: 800px;
+  background: url(../img/bg/uber_bg.jpg) center center/cover no-repeat;
+  padding: 150px 0 135px;
+}
+
+.promo .promo_header {
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 60px;
+}
+
+.promo .promo_subheader {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin: 22px 0 0 0;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 36px;
+}
+
+.promo .promo_descr {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 23px;
+  line-height: 24px;
+}
+
+.promo .promo_btn {
+  display: block;
+  margin: 118px auto 0;
+  width: 259px;
+  height: 63px;
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.advent {
+  padding: 71px 0 65px;
+}
+
+.label {
+  margin: 0 auto;
+  height: 27px;
+  width: 115px;
+  padding: 5px 12px;
+  background-color: #000;
+  color: #fff;
+  font-weight: 400;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.title {
+  margin-top: 38px;
+  color: #222;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.advent .advent_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.advent .advent_wrapper .advent_round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 26px;
+  height: 113px;
+  width: 113px;
+  background-color: #1eacc7;
+  border-radius: 100%;
+}
+
+.advent .advent_wrapper .advent_item {
+  width: 343px;
+}
+
+.advent .advent_wrapper .advent_item .advent_subtitle {
+  line-height: 21px;
+  color: #1eacc7;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.advent .advent_wrapper .advent_item .advent_text {
+  color: #202020;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 21px;
+}
